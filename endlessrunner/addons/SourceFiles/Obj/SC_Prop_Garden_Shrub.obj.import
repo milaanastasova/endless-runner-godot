@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://40uh2xvg4kg7"
+path="res://.godot/imported/SC_Prop_Garden_Shrub.obj-c0f30ce506133b7a59d8134737a44cae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Prop_Garden_Shrub.obj-c0f30ce506133b7a59d8134737a44cae.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Prop_Garden_Shrub.obj"
+dest_files=["res://.godot/imported/SC_Prop_Garden_Shrub.obj-c0f30ce506133b7a59d8134737a44cae.mesh", "res://.godot/imported/SC_Prop_Garden_Shrub.obj-c0f30ce506133b7a59d8134737a44cae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

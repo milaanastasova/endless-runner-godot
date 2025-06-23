@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ce221srrqvuag"
+path="res://.godot/imported/SC_Bld_OneWorldTradeCenter.obj-c3c0b3b8a96c49f1595cab49054b95c5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Bld_OneWorldTradeCenter.obj-c3c0b3b8a96c49f1595cab49054b95c5.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Bld_OneWorldTradeCenter.obj"
+dest_files=["res://.godot/imported/SC_Bld_OneWorldTradeCenter.obj-c3c0b3b8a96c49f1595cab49054b95c5.mesh", "res://.godot/imported/SC_Bld_OneWorldTradeCenter.obj-c3c0b3b8a96c49f1595cab49054b95c5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

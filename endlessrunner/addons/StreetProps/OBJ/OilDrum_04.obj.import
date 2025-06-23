@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cog57b7j5u30d"
+path="res://.godot/imported/OilDrum_04.obj-ed6c27f4f8cf40cc4751aa2bae9f3681.mesh"
+
+[deps]
+
+files=["res://.godot/imported/OilDrum_04.obj-ed6c27f4f8cf40cc4751aa2bae9f3681.mesh"]
+
+source_file="res://addons/StreetProps/OBJ/OilDrum_04.obj"
+dest_files=["res://.godot/imported/OilDrum_04.obj-ed6c27f4f8cf40cc4751aa2bae9f3681.mesh", "res://.godot/imported/OilDrum_04.obj-ed6c27f4f8cf40cc4751aa2bae9f3681.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

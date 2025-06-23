@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://n88ucwuhaify"
+path="res://.godot/imported/SC_Prop_Roof_AirVent_03.obj-642a13f2434fd2100f16372fbe1510da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Prop_Roof_AirVent_03.obj-642a13f2434fd2100f16372fbe1510da.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Prop_Roof_AirVent_03.obj"
+dest_files=["res://.godot/imported/SC_Prop_Roof_AirVent_03.obj-642a13f2434fd2100f16372fbe1510da.mesh", "res://.godot/imported/SC_Prop_Roof_AirVent_03.obj-642a13f2434fd2100f16372fbe1510da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

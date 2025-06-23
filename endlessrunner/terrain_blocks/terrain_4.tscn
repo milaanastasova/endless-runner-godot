@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://b1ierofroptsx"]
+[gd_scene load_steps=8 format=3 uid="uid://b1ierofroptsx"]
 
 [ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_holm4"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_xqwr1"]
+[ext_resource type="PackedScene" uid="uid://c04tyw5758rhl" path="res://barrier_1.tscn" id="3_vctfp"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -73,3 +74,6 @@ transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.004555
 
 [node name="Building6" parent="." instance=ExtResource("2_xqwr1")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 11.9567, -6.69813, -2.92785e-07)
+
+[node name="Barrier1" parent="." instance=ExtResource("3_vctfp")]
+transform = Transform3D(0.2, 0, 0, 0, -0.00132296, -0.199996, 0, 0.199996, -0.00132296, 2.602, 0, 0.673)

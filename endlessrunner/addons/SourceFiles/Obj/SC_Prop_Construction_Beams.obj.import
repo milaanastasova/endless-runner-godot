@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wrvu4cgyi27c"
+path="res://.godot/imported/SC_Prop_Construction_Beams.obj-93b92c4eac4fe351464a79707ae242eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Prop_Construction_Beams.obj-93b92c4eac4fe351464a79707ae242eb.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Prop_Construction_Beams.obj"
+dest_files=["res://.godot/imported/SC_Prop_Construction_Beams.obj-93b92c4eac4fe351464a79707ae242eb.mesh", "res://.godot/imported/SC_Prop_Construction_Beams.obj-93b92c4eac4fe351464a79707ae242eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

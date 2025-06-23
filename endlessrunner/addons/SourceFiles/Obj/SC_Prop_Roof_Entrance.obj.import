@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://shuhxo1xboe0"
+path="res://.godot/imported/SC_Prop_Roof_Entrance.obj-91b836be65df3f549124f8450866a22c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Prop_Roof_Entrance.obj-91b836be65df3f549124f8450866a22c.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Prop_Roof_Entrance.obj"
+dest_files=["res://.godot/imported/SC_Prop_Roof_Entrance.obj-91b836be65df3f549124f8450866a22c.mesh", "res://.godot/imported/SC_Prop_Roof_Entrance.obj-91b836be65df3f549124f8450866a22c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

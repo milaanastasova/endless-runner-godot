@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cqwt1h443rjoi"
+path="res://.godot/imported/SC_Bld_10_Dark.obj-8e786971e4faa550f86c2fd28524b026.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Bld_10_Dark.obj-8e786971e4faa550f86c2fd28524b026.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Bld_10_Dark.obj"
+dest_files=["res://.godot/imported/SC_Bld_10_Dark.obj-8e786971e4faa550f86c2fd28524b026.mesh", "res://.godot/imported/SC_Bld_10_Dark.obj-8e786971e4faa550f86c2fd28524b026.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
