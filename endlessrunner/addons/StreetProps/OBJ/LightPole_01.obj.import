@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4a1myqajj7q2"
+path="res://.godot/imported/LightPole_01.obj-0733b78657165afb83e69be785917336.mesh"
+
+[deps]
+
+files=["res://.godot/imported/LightPole_01.obj-0733b78657165afb83e69be785917336.mesh"]
+
+source_file="res://addons/StreetProps/OBJ/LightPole_01.obj"
+dest_files=["res://.godot/imported/LightPole_01.obj-0733b78657165afb83e69be785917336.mesh", "res://.godot/imported/LightPole_01.obj-0733b78657165afb83e69be785917336.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

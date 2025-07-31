@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bujd4lnvtpflm"
+path="res://.godot/imported/SC_Bld_StatueOfLiberty.obj-fbacc975765d088b82949ca1a3e1b0fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Bld_StatueOfLiberty.obj-fbacc975765d088b82949ca1a3e1b0fe.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Bld_StatueOfLiberty.obj"
+dest_files=["res://.godot/imported/SC_Bld_StatueOfLiberty.obj-fbacc975765d088b82949ca1a3e1b0fe.mesh", "res://.godot/imported/SC_Bld_StatueOfLiberty.obj-fbacc975765d088b82949ca1a3e1b0fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ben5067bkmlxo"
+path="res://.godot/imported/SC_Prop_Construction_Crane.obj-cfaab7d9fba197c7296e9d2e1a9e9cbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Prop_Construction_Crane.obj-cfaab7d9fba197c7296e9d2e1a9e9cbb.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Prop_Construction_Crane.obj"
+dest_files=["res://.godot/imported/SC_Prop_Construction_Crane.obj-cfaab7d9fba197c7296e9d2e1a9e9cbb.mesh", "res://.godot/imported/SC_Prop_Construction_Crane.obj-cfaab7d9fba197c7296e9d2e1a9e9cbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjgq5hq6v4e4n"
+path="res://.godot/imported/SC_Bld_Construction_01.obj-e5db4cc07786551686b0babda4746b9e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Bld_Construction_01.obj-e5db4cc07786551686b0babda4746b9e.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Bld_Construction_01.obj"
+dest_files=["res://.godot/imported/SC_Bld_Construction_01.obj-e5db4cc07786551686b0babda4746b9e.mesh", "res://.godot/imported/SC_Bld_Construction_01.obj-e5db4cc07786551686b0babda4746b9e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

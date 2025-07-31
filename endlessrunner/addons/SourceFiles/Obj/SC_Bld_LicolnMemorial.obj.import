@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://j04jtcutkr5g"
+path="res://.godot/imported/SC_Bld_LicolnMemorial.obj-3ad7bd2f47227d3e6882b57f98c9685d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/SC_Bld_LicolnMemorial.obj-3ad7bd2f47227d3e6882b57f98c9685d.mesh"]
+
+source_file="res://addons/SourceFiles/Obj/SC_Bld_LicolnMemorial.obj"
+dest_files=["res://.godot/imported/SC_Bld_LicolnMemorial.obj-3ad7bd2f47227d3e6882b57f98c9685d.mesh", "res://.godot/imported/SC_Bld_LicolnMemorial.obj-3ad7bd2f47227d3e6882b57f98c9685d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

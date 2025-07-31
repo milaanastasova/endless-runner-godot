@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccgl2beyrjdpb"
+path="res://.godot/imported/BusStop.obj-5d9d9a829431d45a16d4e4ba6e58f5bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/BusStop.obj-5d9d9a829431d45a16d4e4ba6e58f5bf.mesh"]
+
+source_file="res://addons/StreetProps/OBJ/BusStop.obj"
+dest_files=["res://.godot/imported/BusStop.obj-5d9d9a829431d45a16d4e4ba6e58f5bf.mesh", "res://.godot/imported/BusStop.obj-5d9d9a829431d45a16d4e4ba6e58f5bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
