@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c38cosf7tcvrf"]
+
+[ext_resource type="ArrayMesh" uid="uid://144tej6kum5n" path="res://addons/SourceFiles/Obj/SC_Prop_BasketballCourt.obj" id="1_tc821"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_1x47a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_btfmu"]
+albedo_texture = ExtResource("2_1x47a")
+
+[node name="ScPropBasketballCourt" type="Node3D"]
+
+[node name="ScPropBasketballCourt" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.32664, 0, -3.2079)
+mesh = ExtResource("1_tc821")
+surface_material_override/0 = SubResource("StandardMaterial3D_btfmu")

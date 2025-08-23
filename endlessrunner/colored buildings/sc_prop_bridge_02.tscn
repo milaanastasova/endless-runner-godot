@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://rcgfto08gi23"]
+
+[ext_resource type="ArrayMesh" uid="uid://ccjew3yrb42hh" path="res://addons/SourceFiles/Obj/SC_Prop_Bridge_02.obj" id="1_ejms5"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_xnvip"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cl00f"]
+albedo_texture = ExtResource("2_xnvip")
+
+[node name="ScPropBridge02" type="Node3D"]
+
+[node name="ScPropBridge02" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.270989, 1.19209e-07, -0.420161)
+mesh = ExtResource("1_ejms5")
+surface_material_override/0 = SubResource("StandardMaterial3D_cl00f")

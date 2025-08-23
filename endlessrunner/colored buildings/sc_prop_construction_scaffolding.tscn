@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://banmngpkts8x2"]
+
+[ext_resource type="ArrayMesh" uid="uid://bt3hdx2fn3ur4" path="res://addons/SourceFiles/Obj/SC_Prop_Construction_Scaffolding.obj" id="1_ak8bx"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_cd7au"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7u1xq"]
+albedo_texture = ExtResource("2_cd7au")
+
+[node name="ScPropConstructionScaffolding" type="Node3D"]
+
+[node name="ScPropConstructionScaffolding" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0019573, 0, -1.01196)
+mesh = ExtResource("1_ak8bx")
+surface_material_override/0 = SubResource("StandardMaterial3D_7u1xq")
