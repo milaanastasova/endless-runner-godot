@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1d2a58hu78ni"]
+
+[ext_resource type="ArrayMesh" uid="uid://drgroxldclx43" path="res://addons/SourceFiles/Obj/SC_Bld_CapitolBuilding.obj" id="1_5pgsj"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_shbes"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dcbt3"]
+albedo_texture = ExtResource("2_shbes")
+
+[node name="ScBldCapitolBuilding" type="Node3D"]
+
+[node name="ScBldCapitolBuilding" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0479263, 0, -0.0187395)
+mesh = ExtResource("1_5pgsj")
+surface_material_override/0 = SubResource("StandardMaterial3D_dcbt3")
