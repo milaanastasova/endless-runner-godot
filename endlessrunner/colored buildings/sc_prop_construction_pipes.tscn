@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c17ad6e1rxfe7"]
+
+[ext_resource type="ArrayMesh" uid="uid://c4r41xnrk376r" path="res://addons/SourceFiles/Obj/SC_Prop_Construction_Pipes.obj" id="1_3nk8m"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_u3j1o"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrduc"]
+albedo_texture = ExtResource("2_u3j1o")
+
+[node name="ScPropConstructionPipes" type="Node3D"]
+
+[node name="ScPropConstructionPipes" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.70762, 0, -1.43329)
+mesh = ExtResource("1_3nk8m")
+surface_material_override/0 = SubResource("StandardMaterial3D_hrduc")

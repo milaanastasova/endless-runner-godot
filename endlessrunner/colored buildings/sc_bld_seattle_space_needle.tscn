@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bb2mqpssjwgt4"]
+
+[ext_resource type="ArrayMesh" uid="uid://bsm7qd67w2ash" path="res://addons/SourceFiles/Obj/SC_Bld_SeattleSpaceNeedle.obj" id="1_1h32u"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_ywq0c"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hg4sq"]
+albedo_texture = ExtResource("2_ywq0c")
+
+[node name="ScBldSeattleSpaceNeedle" type="Node3D"]
+
+[node name="ScBldSeattleSpaceNeedle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0076499, 0, -0.0634959)
+mesh = ExtResource("1_1h32u")
+surface_material_override/0 = SubResource("StandardMaterial3D_hg4sq")

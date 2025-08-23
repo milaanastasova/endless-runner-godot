@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdvlex8qrjx5s"]
+
+[ext_resource type="ArrayMesh" uid="uid://40uh2xvg4kg7" path="res://addons/SourceFiles/Obj/SC_Prop_Garden_Shrub.obj" id="1_mqgvr"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_iyicp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1nn7w"]
+albedo_texture = ExtResource("2_iyicp")
+
+[node name="ScPropGardenShrub" type="Node3D"]
+
+[node name="ScPropGardenShrub" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1)
+mesh = ExtResource("1_mqgvr")
+surface_material_override/0 = SubResource("StandardMaterial3D_1nn7w")

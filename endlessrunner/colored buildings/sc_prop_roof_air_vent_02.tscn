@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://dh4yni1n500ai"]
+
+[ext_resource type="ArrayMesh" uid="uid://bpv454teevmw0" path="res://addons/SourceFiles/Obj/SC_Prop_Roof_AirVent_02.obj" id="1_lha8l"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_p2xx1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b2wur"]
+albedo_texture = ExtResource("2_p2xx1")
+
+[node name="ScPropRoofAirVent02" type="Node3D"]
+
+[node name="ScPropRoofAirVent02" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0142428, 1.19209e-07, -0.533144)
+mesh = ExtResource("1_lha8l")
+surface_material_override/0 = SubResource("StandardMaterial3D_b2wur")

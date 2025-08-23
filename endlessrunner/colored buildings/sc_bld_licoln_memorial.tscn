@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://63t3ixp30sli"]
+
+[ext_resource type="ArrayMesh" uid="uid://j04jtcutkr5g" path="res://addons/SourceFiles/Obj/SC_Bld_LicolnMemorial.obj" id="1_kuf18"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_a86w5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iychc"]
+albedo_texture = ExtResource("2_a86w5")
+
+[node name="ScBldLicolnMemorial" type="Node3D"]
+
+[node name="ScBldLicolnMemorial" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.91694, 0.131855, 0.874524)
+mesh = ExtResource("1_kuf18")
+surface_material_override/0 = SubResource("StandardMaterial3D_iychc")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck5s6p54kc710"]
+
+[ext_resource type="ArrayMesh" uid="uid://ce221srrqvuag" path="res://addons/SourceFiles/Obj/SC_Bld_OneWorldTradeCenter.obj" id="1_q55y3"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_yijjs"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ei8nk"]
+albedo_texture = ExtResource("2_yijjs")
+
+[node name="ScBldOneWorldTradeCenter" type="Node3D"]
+
+[node name="ScBldOneWorldTradeCenter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.188556, 0, 0.416849)
+mesh = ExtResource("1_q55y3")
+surface_material_override/0 = SubResource("StandardMaterial3D_ei8nk")

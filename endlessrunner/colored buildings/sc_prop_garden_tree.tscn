@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://csnomc5ujlsdb"]
+
+[ext_resource type="ArrayMesh" uid="uid://dsfrgjcel7j67" path="res://addons/SourceFiles/Obj/SC_Prop_Garden_Tree.obj" id="1_un8k1"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_3cuqx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5cy3e"]
+albedo_texture = ExtResource("2_3cuqx")
+
+[node name="ScPropGardenTree" type="Node3D"]
+
+[node name="ScPropGardenTree" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_un8k1")
+surface_material_override/0 = SubResource("StandardMaterial3D_5cy3e")

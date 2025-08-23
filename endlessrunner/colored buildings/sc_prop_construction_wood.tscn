@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bh0jcvcg0dt3"]
+
+[ext_resource type="ArrayMesh" uid="uid://k6wm5m070s7w" path="res://addons/SourceFiles/Obj/SC_Prop_Construction_Wood.obj" id="1_f0qdj"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_owapx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ybmcd"]
+albedo_texture = ExtResource("2_owapx")
+
+[node name="ScPropConstructionWood" type="Node3D"]
+
+[node name="ScPropConstructionWood" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.94658, 1.19209e-07, -0.279014)
+mesh = ExtResource("1_f0qdj")
+surface_material_override/0 = SubResource("StandardMaterial3D_ybmcd")
