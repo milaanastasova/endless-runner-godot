@@ -6,7 +6,7 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1p2e0"]
 albedo_texture = ExtResource("2_w78dv")
 
-[node name="Node3D" type="Node3D"]
+[node name="ScBld04Bright" type="Node3D"]
 
 [node name="ScBld04Bright" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.146184, 0, 0.348117)

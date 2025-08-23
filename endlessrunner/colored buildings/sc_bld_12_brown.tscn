@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://dq7hcnuda1ngo"]
+
+[ext_resource type="ArrayMesh" uid="uid://bg321jmfqflrj" path="res://addons/SourceFiles/Obj/SC_Bld_12_Brown.obj" id="1_3rwxf"]
+[ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_kup5f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xcf3y"]
+albedo_texture = ExtResource("2_kup5f")
+
+[node name="ScBld12Brown" type="Node3D"]
+
+[node name="ScBld12Brown" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.291606, 0, 0.827647)
+mesh = ExtResource("1_3rwxf")
+surface_material_override/0 = SubResource("StandardMaterial3D_xcf3y")

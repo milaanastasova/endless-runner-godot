@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://bb3ufhxblm0ug"]
+[gd_scene load_steps=8 format=3 uid="uid://bb3ufhxblm0ug"]
 
 [ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_2ci0e"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_p7caa"]
+[ext_resource type="PackedScene" uid="uid://diwgj2yvy0if0" path="res://colored buildings/sc_bld_01_bright.tscn" id="3_6lnet"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -73,3 +74,6 @@ transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.004555
 
 [node name="Building6" parent="." instance=ExtResource("2_p7caa")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 11.9567, -6.69813, -2.92785e-07)
+
+[node name="SC_Bld_01_Bright" parent="." instance=ExtResource("3_6lnet")]
+transform = Transform3D(10, 0, 0, 0, 0.636265, -9.97974, 0, 9.97974, 0.636265, -2.18252, -5.35253, -0.144846)
