@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://n7cou2som3pe"]
+
+[ext_resource type="ArrayMesh" uid="uid://cqt7btx541qni" path="res://addons/SourceFiles/Obj/SC_Bld_02_Bright.obj" id="1_um777"]
+[ext_resource type="Texture2D" uid="uid://c12vpf207lksa" path="res://addons/kaykit_city_builder_bits/Assets/texture/citybits_texture.png" id="2_56tyw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y0odp"]
+albedo_texture = ExtResource("2_56tyw")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ScBld02Bright" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0579941, 0, 0.0114744)
+mesh = ExtResource("1_um777")
+surface_material_override/0 = SubResource("StandardMaterial3D_y0odp")
