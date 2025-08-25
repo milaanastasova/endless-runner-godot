@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bbwhjnc06h163"]
+[gd_scene load_steps=4 format=3 uid="uid://drfesf5x3bpij"]
 
 [ext_resource type="ArrayMesh" uid="uid://bu41ltct22skb" path="res://addons/SourceFiles/Obj/SC_Bld_01_Dark.obj" id="1_epnvk"]
 [ext_resource type="Texture2D" uid="uid://cd2fsv6a3ymv0" path="res://addons/SourceFiles/Textures/SimpleCity_Texture.png" id="2_fpfdd"]

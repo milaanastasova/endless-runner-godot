@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://bb42tg8n0k5yb"]
+[gd_scene load_steps=8 format=3 uid="uid://bw00cu1hn1hr2"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_kvp8f"]
-[ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_lpxwg"]
-[ext_resource type="PackedScene" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_rwbm7"]
+[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_wxant"]
+[ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_p0uuo"]
+[ext_resource type="PackedScene" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_671sr"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -53,28 +53,28 @@ mesh = SubResource("BoxMesh_j0n3h")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 15)
-script = ExtResource("1_kvp8f")
+script = ExtResource("1_wxant")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_lbm0f")
 
-[node name="Building" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -9.39808, -0.695394, -3.03965e-08)
 
-[node name="Building2" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building2" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -9.39808, -6.67496, -2.91772e-07)
 
-[node name="Building3" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building3" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -9.39808, 5.3537, 2.34018e-07)
 
-[node name="Building4" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building4" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 11.9475, -0.649041, -2.83704e-08)
 
-[node name="Building5" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building5" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 11.9385, 5.33052, 2.33005e-07)
 
-[node name="Building6" parent="." instance=ExtResource("2_lpxwg")]
+[node name="Building6" parent="." instance=ExtResource("2_p0uuo")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 11.9567, -6.69813, -2.92785e-07)
 
-[node name="ScBld06Dark" parent="." instance=ExtResource("3_rwbm7")]
-transform = Transform3D(1.7, 0, 0, 0, -7.43094e-08, -1.7, 0, 1.7, -7.43094e-08, 1.44666, 3.81844, -30.179)
+[node name="ScBld06Dark" parent="." instance=ExtResource("3_671sr")]
+transform = Transform3D(1.2, 0, 0, 0, -5.24537e-08, -1.2, 0, 1.2, -5.24537e-08, 1.44666, 1.86102, -17.0678)

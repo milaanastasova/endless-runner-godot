@@ -15,7 +15,7 @@ var terrain_belt: Array[MeshInstance3D] = []
 ## The number of blocks to keep rendered to the viewport
 @export var num_terrain_blocks = 4
 ## Path to directory holding the terrain block scenes
-@export_dir var terrian_blocks_path = "res://terrain_blocks"
+@export_dir var terrian_blocks_path = "res://terrain_blocks_new"
 
 
 func _ready() -> void:
