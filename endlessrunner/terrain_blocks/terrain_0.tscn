@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=3 uid="uid://bb42tg8n0k5yb"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_kvp8f"]
+[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_kvp8f"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_lpxwg"]
-[ext_resource type="PackedScene" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_rwbm7"]
+[ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_rwbm7"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
