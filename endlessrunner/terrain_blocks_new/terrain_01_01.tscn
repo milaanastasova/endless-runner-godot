@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://k2khg2y7jhyi"]
+[gd_scene load_steps=13 format=3 uid="uid://blj25ouuta2nf"]
 
 [ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_y1jj7"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="2_ed4lu"]
@@ -60,7 +60,7 @@ transform = Transform3D(10, 0, 0, 0, 10, -1.35525e-20, 0, 1.35525e-20, 10, 0.325
 shape = SubResource("BoxShape3D_s73fk")
 
 [node name="WaterTower" type="MeshInstance3D" parent="."]
-transform = Transform3D(10, 0, 0, 0, -4.37114e-07, -10, 0, 10, -4.37114e-07, -2.34928, 4.44553, 13.3626)
+transform = Transform3D(10, 0, 0, 0, -4.37114e-07, -10, 0, 10, -4.37114e-07, 1.98539, 0.0388927, 13.3626)
 mesh = ExtResource("3_1ovws")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="WaterTower"]
