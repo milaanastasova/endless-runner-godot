@@ -1,10 +1,12 @@
-[gd_scene load_steps=12 format=3 uid="uid://d31g8xls1cy3w"]
+[gd_scene load_steps=14 format=3 uid="uid://d31g8xls1cy3w"]
 
 [ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_vsgr0"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="2_c5fxw"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="5_m508b"]
+[ext_resource type="PackedScene" uid="uid://dq7hcnuda1ngo" path="res://colored buildings/sc_bld_12_brown.tscn" id="6_c5fxw"]
 [ext_resource type="ArrayMesh" uid="uid://diqi5hvvmv5sx" path="res://addons/StreetProps/OBJ/PowerGenerator_01.obj" id="6_vsgr0"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="6_yt46a"]
+[ext_resource type="PackedScene" uid="uid://dl8yh4tmreexs" path="res://colored buildings/sc_bld_17_bright.tscn" id="7_c5fxw"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -47,40 +49,13 @@ shape = SubResource("BoxShape3D_sngpu")
 
 [node name="StreetDesign" type="Node3D" parent="."]
 
-[node name="Building" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -0.686009, -2.99862e-08)
-
-[node name="Building2" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -6.66558, -2.91362e-07)
-
-[node name="Building3" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, 5.36308, 2.34428e-07)
-
-[node name="Building4" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9475, -0.649041, -2.83704e-08)
-
-[node name="Building5" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9385, 5.33052, 2.33005e-07)
-
-[node name="Building6" parent="StreetDesign" instance=ExtResource("5_m508b")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9567, -6.69813, -2.92785e-07)
-
 [node name="RoadStraight" type="MeshInstance3D" parent="StreetDesign"]
-transform = Transform3D(7, 0, 0, 0, -3.0598e-07, -10, 0, 7, -4.37114e-07, 17.9248, -0.0069561, -0.400142)
+transform = Transform3D(7, 0, 0, 0, -3.0598e-07, -10, 0, 7, -4.37114e-07, 25.8247, -0.0069561, -0.400142)
 mesh = ExtResource("6_yt46a")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="StreetDesign/RoadStraight"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StreetDesign/RoadStraight/StaticBody3D"]
-shape = SubResource("ConvexPolygonShape3D_pfcoe")
-
-[node name="RoadStraight2" type="MeshInstance3D" parent="StreetDesign"]
-transform = Transform3D(7, 0, 0, 0, -3.0598e-07, -10, 0, 7, -4.37114e-07, -13.8355, -0.0069561, -0.400142)
-mesh = ExtResource("6_yt46a")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="StreetDesign/RoadStraight2"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StreetDesign/RoadStraight2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_pfcoe")
 
 [node name="Building7" parent="StreetDesign" instance=ExtResource("5_m508b")]
@@ -316,3 +291,9 @@ mesh = ExtResource("6_vsgr0")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ElectricalBox16/MeshInstance3D/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_wnlnp")
+
+[node name="ScBld12Brown" parent="." instance=ExtResource("6_c5fxw")]
+transform = Transform3D(0.8, 0, 0, 0, -3.49691e-08, -0.8, 0, 0.8, -3.49691e-08, -19.5651, 0.936743, 4.09467e-08)
+
+[node name="ScBld17Bright" parent="." instance=ExtResource("7_c5fxw")]
+transform = Transform3D(0.7, 0, 0, 0, -3.0598e-08, -0.7, 0, 0.7, -3.0598e-08, 19.4304, -0.245841, -1.0746e-08)

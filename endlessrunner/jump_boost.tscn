@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://dtgbekj7dh5ca"]
+
+[ext_resource type="Script" uid="uid://tt8c1dmk4pas" path="res://jump_boost.gd" id="1_0l0au"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ebkc2"]
+size = Vector3(0.2, 0.4, 0.1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_0l0au"]
+size = Vector3(0.4, 0.4, 0.1)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_k4gpv"]
+height = 0.733826
+radius = 0.203125
+
+[node name="JumpBoost" type="Area3D"]
+script = ExtResource("1_0l0au")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_ebkc2")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.398162, 0)
+mesh = SubResource("PrismMesh_0l0au")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.23771, 0)
+shape = SubResource("CylinderShape3D_k4gpv")

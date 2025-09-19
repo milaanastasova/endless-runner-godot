@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://csr1tx0cxha4g"]
+[gd_scene load_steps=15 format=3 uid="uid://csr1tx0cxha4g"]
 
 [ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_wxant"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_671sr"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="4_3o23d"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="5_nwrrf"]
 [ext_resource type="ArrayMesh" uid="uid://csxnfncjnmlcb" path="res://addons/kaykit_city_builder_bits/Assets/obj/building_G.obj" id="6_nwrrf"]
+[ext_resource type="PackedScene" uid="uid://dtgbekj7dh5ca" path="res://jump_boost.tscn" id="7_80fri"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -158,3 +159,6 @@ transform = Transform3D(-1.31134e-07, -3, 0, 3, -1.31134e-07, 0, 0, 0, 3, -23.83
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StreetDesign/GreenBrownHouse"]
 transform = Transform3D(1, -3.55271e-15, 3.55271e-15, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -0.0118532, 0)
 mesh = ExtResource("6_nwrrf")
+
+[node name="JumpBoost" parent="." instance=ExtResource("7_80fri")]
+transform = Transform3D(1.5, 0, 0, 0, -6.55671e-08, -1.5, 0, 1.5, -6.55671e-08, 2.75881, 2.43183, 14.4187)
