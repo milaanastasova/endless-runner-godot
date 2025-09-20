@@ -1,11 +1,12 @@
-[gd_scene load_steps=16 format=3 uid="uid://d08vljwybeq8v"]
+[gd_scene load_steps=17 format=3 uid="uid://d08vljwybeq8v"]
 
-[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_3vca0"]
-[ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_vem7a"]
+[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_3vca0"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_pfcoe"]
 [ext_resource type="ArrayMesh" uid="uid://sja7n0nvbe0n" path="res://addons/StreetProps/OBJ/TrafficBarrier_01.obj" id="5_qtq40"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="6_vem7a"]
 [ext_resource type="ArrayMesh" uid="uid://bpxruo1omet4g" path="res://addons/StreetProps/OBJ/OilDrum_01.obj" id="7_pfcoe"]
+[ext_resource type="PackedScene" uid="uid://cusn88wxf1o03" path="res://colored buildings/sc_bld_05_bright.tscn" id="7_w7pc1"]
+[ext_resource type="PackedScene" uid="uid://bit4a2k43jhqq" path="res://colored buildings/sc_bld_04_brown.tscn" id="8_e6w2v"]
 [ext_resource type="ArrayMesh" uid="uid://dp5bug7v062f" path="res://addons/StreetProps/OBJ/TrashCan_02.obj" id="8_n3w8o"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
@@ -79,24 +80,6 @@ shape = SubResource("ConcavePolygonShape3D_k3ef7")
 
 [node name="StreetDesign" type="Node3D" parent="."]
 
-[node name="Building" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -0.686009, -2.99862e-08)
-
-[node name="Building2" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -6.66558, -2.91362e-07)
-
-[node name="Building3" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, 5.36308, 2.34428e-07)
-
-[node name="Building4" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9475, -0.649041, -2.83704e-08)
-
-[node name="Building5" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9385, 5.33052, 2.33005e-07)
-
-[node name="Building6" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9567, -6.69813, -2.92785e-07)
-
 [node name="RoadStraight" type="MeshInstance3D" parent="StreetDesign"]
 transform = Transform3D(7, 0, 0, 0, -3.0598e-07, -10, 0, 7, -4.37114e-07, 17.9248, -0.0069561, -0.400142)
 mesh = ExtResource("6_vem7a")
@@ -114,30 +97,6 @@ mesh = ExtResource("6_vem7a")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StreetDesign/RoadStraight2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_pfcoe")
-
-[node name="Building7" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, -0.686, 0)
-
-[node name="Building8" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -33.3746, -6.66558, -2.91362e-07)
-
-[node name="Building9" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, 5.363, 0)
-
-[node name="Building8_extension2" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, -6.666, 0)
-
-[node name="Building10" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, 37.5037, -0.628693, -2.74808e-08)
-
-[node name="Building11" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, 37.5309, -6.66558, -2.91362e-07)
-
-[node name="Building12" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, 37.4873, 5.36268, 2.3441e-07)
-
-[node name="Building2_extension2" parent="StreetDesign" instance=ExtResource("2_vem7a")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, 33.9442, -6.66558, -2.91362e-07)
 
 [node name="RoadStraight3" type="MeshInstance3D" parent="StreetDesign"]
 transform = Transform3D(7, 0, 0, 0, -3.0598e-07, -10, 0, 7, -4.37114e-07, 43.0149, -0.0069561, -0.400142)
@@ -263,3 +222,9 @@ mesh = ExtResource("7_pfcoe")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Barrel8/MeshInstance3D/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_n3w8o")
+
+[node name="ScBld05Bright" parent="." instance=ExtResource("7_w7pc1")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -26.4135, -1.23861, 0.139814)
+
+[node name="ScBld04Brown" parent="." instance=ExtResource("8_e6w2v")]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 25.9579, -1.17409, -0.942724)
