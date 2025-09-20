@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cfre1b2yn5y5r"]
 
-[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_4k7ve"]
+[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_4k7ve"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="2_kpn63"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]

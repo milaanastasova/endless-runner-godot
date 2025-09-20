@@ -1,12 +1,15 @@
-[gd_scene load_steps=15 format=3 uid="uid://csr1tx0cxha4g"]
+[gd_scene load_steps=18 format=3 uid="uid://csr1tx0cxha4g"]
 
-[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_wxant"]
+[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_wxant"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_671sr"]
 [ext_resource type="ArrayMesh" uid="uid://sy6fdnh4fqa4" path="res://addons/kaykit_city_builder_bits/Assets/obj/watertower.obj" id="3_adjha"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="4_3o23d"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="5_nwrrf"]
 [ext_resource type="ArrayMesh" uid="uid://csxnfncjnmlcb" path="res://addons/kaykit_city_builder_bits/Assets/obj/building_G.obj" id="6_nwrrf"]
-[ext_resource type="PackedScene" uid="uid://dtgbekj7dh5ca" path="res://jump_boost.tscn" id="7_80fri"]
+[ext_resource type="PackedScene" path="res://jump_boost.tscn" id="7_80fri"]
+[ext_resource type="PackedScene" uid="uid://pxuimvj1si4p" path="res://colored buildings/sc_prop_roof_solar_panel.tscn" id="8_cmowm"]
+[ext_resource type="PackedScene" uid="uid://k5rnfxebjctx" path="res://colored buildings/sc_prop_construction_crane.tscn" id="9_g54bh"]
+[ext_resource type="PackedScene" uid="uid://63t3ixp30sli" path="res://colored buildings/sc_bld_licoln_memorial.tscn" id="10_5cvvi"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_mgvqy"]
 size = Vector2(100, 20)
@@ -72,12 +75,6 @@ shape = SubResource("ConcavePolygonShape3D_7t1b2")
 
 [node name="StreetDesign" type="Node3D" parent="."]
 
-[node name="Building" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -0.686009, -2.99862e-08)
-
-[node name="Building2" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -23.8048, -6.66558, -2.91362e-07)
-
 [node name="Building4" parent="StreetDesign" instance=ExtResource("4_3o23d")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 27.9475, -0.649041, -2.83704e-08)
 
@@ -105,23 +102,8 @@ mesh = ExtResource("5_nwrrf")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StreetDesign/RoadStraight2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_80fri")
 
-[node name="Building2_extension" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, -27.3749, -6.66558, -2.91362e-07)
-
 [node name="Building5_extension" parent="StreetDesign" instance=ExtResource("4_3o23d")]
 transform = Transform3D(0.0045552, -1.31134e-07, -3, -3, -1.31333e-07, -0.0045552, -1.31134e-07, 3, -1.31333e-07, 31.4934, 5.33052, 2.33005e-07)
-
-[node name="Building7" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, -0.686, 0)
-
-[node name="Building8" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -33.3746, -6.66558, -2.91362e-07)
-
-[node name="Building9" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, 5.363, 0)
-
-[node name="Building8_extension2" parent="StreetDesign" instance=ExtResource("4_3o23d")]
-transform = Transform3D(-2.62268e-07, 1.31134e-07, -3, -3, 1.31134e-07, 2.62268e-07, 1.31134e-07, 3, 1.31134e-07, -37, -6.666, 0)
 
 [node name="Building10" parent="StreetDesign" instance=ExtResource("4_3o23d")]
 transform = Transform3D(5.73206e-15, 1.31134e-07, 3, 3, -1.31134e-07, -8.47033e-22, 1.31134e-07, 3, -1.31134e-07, 37.5037, -0.628693, -2.74808e-08)
@@ -162,3 +144,12 @@ mesh = ExtResource("6_nwrrf")
 
 [node name="JumpBoost" parent="." instance=ExtResource("7_80fri")]
 transform = Transform3D(1.5, 0, 0, 0, -6.55671e-08, -1.5, 0, 1.5, -6.55671e-08, 2.75881, 2.43183, 14.4187)
+
+[node name="ScPropRoofSolarPanel" parent="." instance=ExtResource("8_cmowm")]
+transform = Transform3D(-0.00397628, -0.000156507, 0.999992, 0.999218, 0.0393292, 0.00397936, -0.0393295, 0.999226, 1.73947e-10, 6.16063, -2.68683, 13.4162)
+
+[node name="ScPropConstructionCrane" parent="." instance=ExtResource("9_g54bh")]
+transform = Transform3D(-0.528638, 3.55271e-15, -0.283798, -0.283798, -2.62268e-08, 0.528638, -1.24052e-08, 0.6, 2.31075e-08, 19.6032, 7.16949, -0.0814117)
+
+[node name="ScBldLicolnMemorial" parent="." instance=ExtResource("10_5cvvi")]
+transform = Transform3D(0.55, 0, 0, 0, -2.40413e-08, -0.55, 0, 0.55, -2.40413e-08, -22.452, -2.54632, -0.144473)
