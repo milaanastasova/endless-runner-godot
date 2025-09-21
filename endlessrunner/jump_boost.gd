@@ -8,6 +8,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	rotate_z(deg_to_rad(ROTATION_SPEED))
 	
-	if has_overlapping_bodies():
-		queue_free()
-	
+
+func _on_body_entered(body: Node3D) -> void:
+	Global.JUMP_BOOST_TAKEN = true
+	queue_free()

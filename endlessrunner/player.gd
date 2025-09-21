@@ -12,9 +12,20 @@ func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 	
+	if Global.JUMP_BOOST_TAKEN:
+		Global.JUMP_BOOST_TAKEN = false
+		Global.JUMP_BOOST = true
+		
+	if Global.JUMP_BOOST:
+		Global.counter+=1
+		if Global.counter == 800:
+			Global.JUMP_BOOST = false
+	
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
+		if Global.JUMP_BOOST:
+			velocity.y *= 2
 		anim_player.play("Jumping0")
 	
 	# If we landed back on the floor AND we're not currently jumping, return to running
