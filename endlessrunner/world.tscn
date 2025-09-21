@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://c0ses8ykinso2"]
+[gd_scene load_steps=9 format=3 uid="uid://c0ses8ykinso2"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_puxnc"]
 [ext_resource type="PackedScene" uid="uid://cwq0s867oe87e" path="res://terrain_controller.tscn" id="2_hwcfe"]
+[ext_resource type="PackedScene" uid="uid://6nb7kccnse56" path="res://cac-1758463323376.glb" id="3_mieo3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3tdqq"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -43,5 +44,8 @@ mesh = SubResource("CapsuleMesh_qhy8y")
 
 [node name="Camera3D" type="Camera3D" parent="Player"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22, 3)
+
+[node name="AuxScene" parent="Player" instance=ExtResource("3_mieo3")]
+transform = Transform3D(-0.0199872, 0, -0.000714035, 0, 0.02, 0, 0.000714035, 0, -0.0199872, 0, 20.206, 0)
 
 [node name="TerrainController" parent="." instance=ExtResource("2_hwcfe")]
