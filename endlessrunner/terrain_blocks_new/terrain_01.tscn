@@ -1,6 +1,6 @@
 [gd_scene load_steps=18 format=3 uid="uid://csr1tx0cxha4g"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_wxant"]
+[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_wxant"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_671sr"]
 [ext_resource type="ArrayMesh" uid="uid://sy6fdnh4fqa4" path="res://addons/kaykit_city_builder_bits/Assets/obj/watertower.obj" id="3_adjha"]
 [ext_resource type="PackedScene" uid="uid://b2rdadfk2ows3" path="res://building.tscn" id="4_3o23d"]
@@ -30,7 +30,7 @@ data = PackedVector3Array(-0.0518, 0.4945, -0.1932, -0.0518, 0.2, -0.1932, 0.051
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_80fri"]
 points = PackedVector3Array(-1, 0, -1, -1, 0, 1, -1, 0.1, -1, 1, 0, -1, -1, 0.1, 1, 1, 0, 1, 1, 0.1, -1, 1, 0.1, 1)
 
-[node name="Terrain_0" type="MeshInstance3D"]
+[node name="Terrain_1" type="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -9.59067)
 mesh = SubResource("QuadMesh_mgvqy")
 

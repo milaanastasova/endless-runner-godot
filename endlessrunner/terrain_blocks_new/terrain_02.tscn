@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=3 uid="uid://dvait7kye0dd0"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_s73fk"]
+[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_s73fk"]
 [ext_resource type="ArrayMesh" uid="uid://byxjayhakm3mc" path="res://addons/kaykit_city_builder_bits/Assets/obj/box_B.obj" id="3_s73fk"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_tm4i1"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="5_n4xye"]
@@ -31,7 +31,7 @@ points = PackedVector3Array(-1, 0, -1, -1, 0, 1, -1, 0.1, -1, 1, 0, -1, -1, 0.1,
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tm4i1"]
 points = PackedVector3Array(-1, 0, -1, -1, 0, 1, -1, 0.1, -1, 1, 0, -1, -1, 0.1, 1, 1, 0, 1, 1, 0.1, -1, 1, 0.1, 1)
 
-[node name="Terrain_0" type="MeshInstance3D"]
+[node name="Terrain_1" type="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -9.59067)
 mesh = SubResource("QuadMesh_mgvqy")
 

@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://dtgbekj7dh5ca"]
+[gd_scene load_steps=5 format=3 uid="uid://ccn0s21xalgps"]
 
-[ext_resource type="Script" uid="uid://tt8c1dmk4pas" path="res://jump_boost.gd" id="1_0l0au"]
+[ext_resource type="Script" path="res://jump_boost.gd" id="1_0l0au"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_ebkc2"]
 size = Vector3(0.2, 0.4, 0.1)

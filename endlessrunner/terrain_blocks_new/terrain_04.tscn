@@ -1,6 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://d08vljwybeq8v"]
+[gd_scene load_steps=17 format=3 uid="uid://brx2iwd4nydo0"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_3vca0"]
+[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_3vca0"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_pfcoe"]
 [ext_resource type="ArrayMesh" uid="uid://sja7n0nvbe0n" path="res://addons/StreetProps/OBJ/TrafficBarrier_01.obj" id="5_qtq40"]
 [ext_resource type="ArrayMesh" uid="uid://vm413wd2865j" path="res://addons/kaykit_city_builder_bits/Assets/obj/road_straight.obj" id="6_vem7a"]

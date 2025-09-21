@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://cvt7o4b0mdryo"]
 
-[ext_resource type="Script" path="res://static_body_3d_terrain.gd" id="1_s7i6g"]
+[ext_resource type="Script" uid="uid://bs5ey4jxjl178" path="res://static_body_3d_terrain.gd" id="1_s7i6g"]
 [ext_resource type="PackedScene" uid="uid://dl23wf6d4vo2q" path="res://colored buildings/sc_bld_06_dark.tscn" id="3_8vd0r"]
 [ext_resource type="ArrayMesh" uid="uid://cd6055ukoqlbu" path="res://addons/StreetProps/OBJ/PowerGenerator_02.obj" id="4_8vd0r"]
 [ext_resource type="ArrayMesh" uid="uid://sja7n0nvbe0n" path="res://addons/StreetProps/OBJ/TrafficBarrier_01.obj" id="5_sngpu"]
@@ -29,7 +29,7 @@ points = PackedVector3Array(-1, 0, -1, -1, 0, 1, -1, 0.1, -1, 1, 0, -1, -1, 0.1,
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_sngpu"]
 points = PackedVector3Array(-1, 0, -1, -1, 0, 1, -1, 0.1, -1, 1, 0, -1, -1, 0.1, 1, 1, 0, 1, 1, 0.1, -1, 1, 0.1, 1)
 
-[node name="Terrain_0" type="MeshInstance3D"]
+[node name="Terrain_1" type="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, -9.59067)
 mesh = SubResource("QuadMesh_mgvqy")
 
